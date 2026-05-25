@@ -34,7 +34,7 @@ project-folder/
 │
 └── images/
     ├── image.png
-    └── logo.png
+    └── sun-solid (1).png
 ```
 
 ## ⚡ How It Works
