@@ -2,6 +2,10 @@
 
 TempFinder is a simple and responsive weather web app that shows real-time weather information for any city using the WeatherAPI.
 
+## 🌐 Live Website
+
+🔗 https://yashwanth-thota-07.github.io/weather-app/
+
 ## 🚀 Features
 
 - 🔍 Search weather by city name
