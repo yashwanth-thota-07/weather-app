@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempFinder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <h1>
+        <i class="fa-solid fa-sun"></i>
+        TempFinder
+    </h1>
+
+    <div id="setter">
+
+        <div id="outer">
+
+            <div id="inner">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                type="text"
+                placeholder="Search your city"
+                id="searchbar">
+
+            </div>
+
+        </div>
+
+        <button id="search">
+            Search
+        </button>
+
+    </div>
+
+    <div id="display" class="disp">
+
+        <div id="dispinner" class="dis1">
+
+            <div id="fst">
+
+                <p id="crnt">
+                    CURRENT WEATHER
+                </p>
+
+            </div>
+
+            <hr>
+
+            <div id="snd">
+
+                <div id="maintemp">
+
+                    <p id="temp">
+                        35°C
+                    </p>
+
+                    <p id="real">
+                        RealFeel : 35°
+                    </p>
+
+                    <p id="condn">
+                        Feels Clear
+                    </p>
+
+                </div>
+
+                <div id="sub">
+
+                    <p id="heat" class="sub1">
+                        Heat Index :
+                    </p>
+
+                    <hr>
+
+                    <p id="wind" class="sub1">
+                        Wind :
+                    </p>
+
+                    <hr>
+
+                    <p id="gust" class="sub1">
+                        Wind Gusts :
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script src="script.js">
+</script>
+
+</body>
+</html>
